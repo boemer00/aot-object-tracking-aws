@@ -1,1 +1,56 @@
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+out/
+
 raw_data/
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+*.egg-info/
+Pipfile.lock
+.env
+
+.env
+.env.*
+*.key
+*.pem
+*.crt
+config/database.yml
+config/secrets.yml
+
+# General dependencies (e.g., Python, Node.js, etc.)
+/node_modules
+/venv
+/.venv
+.Pipfile.lock
+package-lock.json
+yarn.lock
+composer.lock
+Gemfile.lock
+
+*.log
+*.tmp
+*.temp
+*.cache
+*.pid
+*.pid.lock
+
+# Docker
+docker-compose.override.yml
+*.docker
+Dockerfile*
+/docker-compose.yml
+/logs
+/tmp
+
+# Vagrant
+.vagrant/
