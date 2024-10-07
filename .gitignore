@@ -1,14 +1,6 @@
-# VS Code
-.vscode/
-.history/
-*.code-workspace
-
-# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
-.idea/
-*.iml
-out/
-
+# General dependencies
 raw_data/
+processed_data/
 
 __pycache__/
 *.py[cod]
@@ -18,8 +10,6 @@ venv/
 *.egg-info/
 Pipfile.lock
 .env
-
-.env
 .env.*
 *.key
 *.pem
@@ -27,7 +17,6 @@ Pipfile.lock
 config/database.yml
 config/secrets.yml
 
-# General dependencies (e.g., Python, Node.js, etc.)
 /node_modules
 /venv
 /.venv
@@ -52,5 +41,13 @@ Dockerfile*
 /logs
 /tmp
 
-# Vagrant
-.vagrant/
+# macOS system files
+.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
