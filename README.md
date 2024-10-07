@@ -1,9 +1,9 @@
-# aot-object-tracking-aws
+# Airborne Object Tracking
 
 Airborne Object Tracking (AOT) is a collection of 4,943 flight sequences, each approximately 120 seconds long, collected at 10 Hz under a variety of conditions. The dataset contains over 5.9 million images and more than 3.3 million 2D annotations of airborne objects within the sequences. There are 3,306,350 frames without labels, as they do not contain any airborne objects. For images with labels, there is an average of 1.3 labels per image. All airborne objects in the dataset are labelled.
 
 
-## ground truth
+## Ground Truth
 
 Ground truth (present in `ImageSets` folder) contains all the relevant information regarding airborne objects, their locations, bbox and so on.
 While the `Images` folder have accompanied images for your training code to work on.
