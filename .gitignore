@@ -1,6 +1,7 @@
 # General dependencies
 raw_data/
 processed_data/
+notebooks/airborne_data/
 
 __pycache__/
 *.py[cod]
@@ -46,6 +47,8 @@ Dockerfile*
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/
+.csv
+.json
 
 # VS Code
 .vscode/
