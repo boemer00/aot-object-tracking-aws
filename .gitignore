@@ -51,6 +51,10 @@ Dockerfile*
 .csv
 .json
 
+# Video output
+airborne_video_output/
+*.mp4
+
 # VS Code
 .vscode/
 .history/
