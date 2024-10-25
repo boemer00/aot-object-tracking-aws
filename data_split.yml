@@ -1,0 +1,8 @@
+train: /Users/renatoboemer/code/developer/aot-object-tracking-aws/split/train/images
+val: /Users/renatoboemer/code/developer/aot-object-tracking-aws/split/val/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['helicopter']

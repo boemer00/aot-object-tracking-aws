@@ -3,6 +3,9 @@ raw_data/
 processed_data/
 notebooks/airborne_data/
 models/
+images/
+annotations/
+split/
 
 __pycache__/
 *.py[cod]
